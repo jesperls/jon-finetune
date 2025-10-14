@@ -1,0 +1,36 @@
+# Environment
+.env
+.venv/
+env/
+*.pyc
+__pycache__/
+
+# Data
+data/
+*.json
+*.jsonl
+
+# Model outputs
+outputs/
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Logs
+*.log
+wandb/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

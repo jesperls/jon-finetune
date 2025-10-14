@@ -1,0 +1,27 @@
+[project]
+name = "finetune"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.36.0",
+    "datasets>=2.14.0",
+    "peft>=0.7.0",
+    "bitsandbytes>=0.41.0",
+    "accelerate>=0.25.0",
+    "trl>=0.7.0",
+    "pymysql>=1.1.0",
+    "sqlalchemy>=2.0.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "tqdm>=4.65.0",
+    "python-dotenv>=1.0.0",
+    "huggingface-hub>=0.19.0",
+    "scipy>=1.11.0",
+    "sentencepiece>=0.1.99",
+    "protobuf>=3.20.0",
+]
+
+
